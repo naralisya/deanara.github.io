@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Game</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script> 
+
+        var ships = [0, 0, 0, 0, 0];
+
+        ships[Math.floor(Math.random()*5)] = 1;
+
+        alert("Welcome to my game! It's about to start!")
+
+        var fact = true;
+        var counter = 0;
+        while(fact){
+
+        var guess = prompt("Pick a number from 0-4 to guess which ship has the bomb. The game will count your amount of tries.");
+        counter++;
+        if(ships[guess] == 1){
+            alert("You win it took you and it took you "+ counter +" tries!");
+            fact = false;
+        }else{
+         alert("That wasn't it. Try again!");
+        }
+        }
+        </script>
+    </head>
+
+    <body>
+        <header><h2>Find the Bomb</h2></header>
+        <div class="navigation">
+            <h3><a href="index.html">My Portfolio</a>
+            <a href="games.html">My Game</a></h3>
+        </div>
+        <div class = "start">
+            Click the boat to play again!
+        </div>
+            <br><a href="bomb.html"><img src="boat.png" width=300px></a>
+        </body>
+    </body>
+</html>

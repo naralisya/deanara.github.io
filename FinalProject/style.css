@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Patrick+Hand|Source+Sans+Pro&display=swap');
+
+body{font-size:24px;text-align: center;background-color:#89d3cd;font-family: 'Source Sans Pro', sans-serif;}
+
+header{background-color: honeydew;}
+
+.content{font-family: 'Patrick Hand', cursive;font-size: 30px;}
+
+.link{background-color: khaki;font-family: 'Patrick Hand', cursive;}
+
+h2{font-family: 'IBM Plex Sans', sans-serif;}
+
+.photo img{width:250px;border-radius:50%;border:12px solid #f8afbb;padding:5px;align-content: center;}
+
+.sasuke img{width:150px;border:5px solid #f8afbb;}
+
+.navigation a{color:#3563c5;padding:20px;text-decoration: none;}
+
+.link a{color:#3563c5;text-decoration: none;}
+
+.list{text-align: left;font-family: 'Patrick Hand', cursive;}
+
+.start{font-family: 'Patrick Hand', cursive;}
